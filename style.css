@@ -4,36 +4,41 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #827f7f;
-    
+    background-color: #827f7f;    
 }
 #box{
     border: 2px solid black;
     position: absolute;
     top: 30%;
     left: 30%;
+    height: 300px;
+    width: 650px;
 }
 #box h1{
     margin-left: 7rem;
 }
-#from{
-    display: flex;
+.dropDown{
     margin-top: 50px;
-
 }
+
 #icon{
     margin-left:140px;
     margin-right:100px;
 }
-#from input{
+.dropDown input{
     margin: 10px 0 10px 10px;
 }
-#to input{
-    margin: 10px 10px 10px 10px;
-}
+
 option{
     color: #000;
 }
 #btn{
-    margin-left: 45%;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+#box2{
+    display: flex;
+}
+#box3{
+    margin-top: 30px;
 }
