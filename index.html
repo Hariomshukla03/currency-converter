@@ -13,29 +13,23 @@
     <div id="box">
         <h1>Currency Converter</h1>
         <div id="box2">
-        <div class="dropDown">
-            <h2>From<span>
-            <img src="https://flagsapi.com/BE/flat/64.png"height="20px" width="20px">  
-            <select name="Country" ></h2>
-            <option value="IND">IND</option>
-            <option value="USD">USD</option>
-            <option value="ERO">ERO</option>
-            <option value="JAP">JAP</option>
+        <div class="dropDown" id="from">
+            <h2>From</h2><span>
+            <img class="countryimg" src="https://flagsapi.com/US/flat/64.png"height="50px" width="50px">  
+            <select name="from"  >
+            
+            
             </select></span><i id="icon"class="fa-solid fa-arrow-right-arrow-left"></i>
-            <div><input type="text" placeholder="0"></div>
+            <div><input type="number" placeholder="Enter Amount"></div>
         </div>
-        <div  id="box3">  
+        <div class="dropDown" id="box3">  
             <h2>To</h2>
             <span>
-            <img src="https://flagsapi.com/BE/flat/64.png" height="20px" width="20px">
-            <select name="Country" ></h2>
-            <option value="IND">IND</option>
-            <option value="USD">USD</option>
-            <option value="ERO">ERO</option>
-            <option value="JAP">JAP</option>
+            <img class="countryimg" src="https://flagsapi.com/IN/flat/64.png" height="50px" width="50px">
+            <select name="to">
             </select></span>
         
-            <div id="input"><input type="text" placeholder="0"></div>
+            <div id="input"><input type="number" value="0"></div>
         </div>
         
     </div>
