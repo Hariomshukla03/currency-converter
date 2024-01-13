@@ -1,1 +1,1 @@
-https://github.com/Hariomshukla03/currency-converter.git
+https://hariomshukla03.github.io/currency-converter/
